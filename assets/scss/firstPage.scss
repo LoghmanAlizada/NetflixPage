@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0f0f0f;
+}
+
+@mixin cardStr {
+    position: absolute;
+    width: 23%;
+    height: 13rem;
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    transition-duration: .8s;
+    
+
+    &:hover{
+        transition-duration: .8s; 
+        filter: none; 
+        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; 
+    }
+}
+
+.parent{
+
+    .topsentence{
+        
+        p{
+            position: absolute;
+            color: white;
+            font-family: 'Bebas Neue', cursive;
+            letter-spacing: 7px;
+            transform: rotate(-90deg);
+            top: 50%;
+            left: -3%;
+            transition-duration: .8s;
+
+            &:hover{
+                transition-duration: .8s;
+                color: grey;
+                cursor: none;
+            }
+        }
+    }
+
+
+    .firstcard{
+        left: 11%;
+        top: 10%;
+        background-image: url(../images/1.jpg);
+        @include cardStr;
+    }
+
+    .secondcard{
+        left: 38%;
+        top: 10%;
+        background-image: url(../images/2.webp);
+        @include cardStr;
+    }
+
+    .thirdcard{
+        left: 65%;
+        top: 10%;
+        background-image: url(../images/3.jpg);
+        @include cardStr;
+    }
+
+    .fourthcard{
+        left: 11%;
+        top: 40%;
+        background-image: url(../images/4.jpg);
+        @include cardStr;
+    }
+
+    .fifthcard{
+        left: 38%;
+        top: 40%;
+        background-image: url(../images/9.jpg);
+        @include cardStr;
+    }
+
+    .sixthcard{
+        left: 65%;
+        top: 40%;
+        background-image: url(../images/6.webp);
+        @include cardStr;
+    }
+
+    .seventhcard{
+        left: 11%;
+        top: 70%;
+        background-image: url(../images/7.webp);
+        @include cardStr;
+     }
+
+    .eighthcard{
+        left: 38%;
+        top: 70%;
+        background-image: url(../images/8.jpg);
+        @include cardStr;
+    }
+
+    .ninthcard{
+        left: 65%;
+        top: 70%;
+        background-image: url(../images/5.webp);
+        @include cardStr;
+    }
+
+
+
+    .logo{
+        width: 30%;
+        background-color: transparent;
+        position: absolute;
+        left: 1%;
+        img{
+            max-width: 100%;
+            background-color: transparent;
+        }
+    }
+
+    .leftline{
+        position: absolute;
+        background-color: red;
+        width: .7%;
+        height: 3.2rem;
+        top: 69%;
+        left: 4%;
+    }
+
+    .firstbottomtext{
+        color: white;
+        position: absolute;
+        background-color: transparent;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 30px;
+        letter-spacing: 3px;
+        font-weight: 500;
+        top: 65%;
+        left: 7%;
+
+    }
+
+    .secondbottomtext{
+        color: white;
+        position: absolute;
+        background-color: transparent;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 30px;
+        letter-spacing: 3px;
+        font-weight: 500;
+        top: 78%;
+        left: 7%;
+
+    }
+
+    i{
+        background-color: transparent;
+        font-size: 2rem;
+        color: red;
+        position: absolute;
+        top: 75%;
+        left: 85%;
+    }
+}

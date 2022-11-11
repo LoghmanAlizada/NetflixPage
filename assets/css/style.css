@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #0f0f0f;
+}
+
+.parent .topsentence p {
+  position: absolute;
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 7px;
+  transform: rotate(-90deg);
+  top: 50%;
+  left: -3%;
+  transition-duration: 0.8s;
+}
+.parent .topsentence p:hover {
+  transition-duration: 0.8s;
+  color: grey;
+  cursor: none;
+}
+.parent .firstcard {
+  left: 11%;
+  top: 10%;
+  position: absolute;
+  width: 23%;
+  height: 13rem;
+  border-radius: 15px;
+  background-image: url(../images/1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  transition-duration: 0.8s;
+}
+.parent .firstcard:hover {
+  transition-duration: 0.8s;
+  filter: none;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.parent .secondcard {
+  left: 38%;
+  top: 10%;
+  position: absolute;
+  width: 23%;
+  height: 13rem;
+  border-radius: 15px;
+  background-image: url(../images/2.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  transition-duration: 0.8s;
+}
+.parent .secondcard:hover {
+  transition-duration: 0.8s;
+  filter: none;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.parent .thirdcard {
+  position: absolute;
+  width: 23%;
+  height: 13rem;
+  border-radius: 15px;
+  left: 65%;
+  top: 10%;
+  background-image: url(../images/3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  transition-duration: 0.8s;
+}
+.parent .thirdcard:hover {
+  transition-duration: 0.8s;
+  filter: none;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.parent .fourthcard {
+  position: absolute;
+  width: 23%;
+  height: 13rem;
+  border-radius: 15px;
+  left: 11%;
+  top: 40%;
+  background-image: url(../images/4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  transition-duration: 0.8s;
+}
+.parent .fourthcard:hover {
+  transition-duration: 0.8s;
+  filter: none;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.parent .fifthcard {
+  position: absolute;
+  width: 23%;
+  height: 13rem;
+  border-radius: 15px;
+  left: 38%;
+  top: 40%;
+  background-image: url(../images/9.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  transition-duration: 0.8s;
+}
+.parent .fifthcard:hover {
+  transition-duration: 0.8s;
+  filter: none;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.parent .sixthcard {
+  position: absolute;
+  width: 23%;
+  height: 13rem;
+  border-radius: 15px;
+  left: 65%;
+  top: 40%;
+  background-image: url(../images/6.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  transition-duration: 0.8s;
+}
+.parent .sixthcard:hover {
+  transition-duration: 0.8s;
+  filter: none;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.parent .seventhcard {
+  position: absolute;
+  width: 23%;
+  height: 13rem;
+  border-radius: 15px;
+  left: 11%;
+  top: 70%;
+  background-image: url(../images/7.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  transition-duration: 0.8s;
+}
+.parent .seventhcard:hover {
+  transition-duration: 0.8s;
+  filter: none;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.parent .eighthcard {
+  position: absolute;
+  width: 23%;
+  height: 13rem;
+  border-radius: 15px;
+  left: 38%;
+  top: 70%;
+  background-image: url(../images/8.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  transition-duration: 0.8s;
+}
+.parent .eighthcard:hover {
+  transition-duration: 0.8s;
+  filter: none;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.parent .ninthcard {
+  position: absolute;
+  width: 23%;
+  height: 13rem;
+  border-radius: 15px;
+  left: 65%;
+  top: 70%;
+  background-image: url(../images/5.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  transition-duration: 0.8s;
+}
+.parent .ninthcard:hover {
+  transition-duration: 0.8s;
+  filter: none;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.parent .logo {
+  width: 30%;
+  background-color: transparent;
+  position: absolute;
+  left: 1%;
+}
+.parent .logo img {
+  max-width: 100%;
+  background-color: transparent;
+}
+.parent .leftline {
+  position: absolute;
+  background-color: red;
+  width: 0.7%;
+  height: 3.2rem;
+  top: 69%;
+  left: 4%;
+}
+.parent .firstbottomtext {
+  color: white;
+  position: absolute;
+  background-color: transparent;
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-weight: 500;
+  top: 65%;
+  left: 7%;
+}
+.parent .secondbottomtext {
+  color: white;
+  position: absolute;
+  background-color: transparent;
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-weight: 500;
+  top: 78%;
+  left: 7%;
+}
+.parent i {
+  background-color: transparent;
+  font-size: 2rem;
+  color: red;
+  position: absolute;
+  top: 75%;
+  left: 85%;
+}/*# sourceMappingURL=style.css.map */
